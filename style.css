@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* navbar */
+header nav {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li,
+.icons li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+}
+
+.icons li i {
+    font-size: 20px;
+}
+
+.logo img {
+    padding: 20px;
+}
+
+/* body */
+.main_container {
+    background-image: url(image/Badge.png), url(image/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.png);
+    background-position: top center, right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 10%, 52%;
+    border: 1px;
+    border-radius: 50px;
+    margin: 50px;
+    background-color: #E7FAFE;
+    padding: 30px;
+}
+
+.main_container .text {
+    width: 40%;
+}
+
+.main_container .text h1 {
+    font-size: 60px;
+    padding: 5px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.main_container .text p {
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+.box {
+    border: 1px;
+    border-radius: 20px;
+    background-color: rgb(219, 237, 241);
+    display: inline-block;
+    margin: 30px 10px 10px 10px;
+    padding: 10px 15px 10px 15px;
+}
+
+.main_container .text .box1 {
+    display: inline-flex;
+    margin-top: 100px;
+}
+
+.main_container .text .box1 .john {
+    height: 50px;
+    margin: 10px 40px 10px 10px;
+    display: inline-flex;
+}
+
+.main_container .text .box1 .john .john_text {
+    padding-left: 10px;
+}
+
+.main_container .text .box1 .john .john_text p {
+    padding-top: 5px;
+}
+
+.main_container .text .box1 .john img {
+    height: 50px;
+    width: 50px;
+}
+
+.view_recipe,
+.view_category {
+    font: 30px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    height: 60px;
+}
+
+.main_container .text .box1 .view_recipe {
+    background-color: black;
+    color: white;
+    margin: 10px 0 10px 50px;
+}
+
+.main_container .text .box1 .view_recipe i {
+    padding-left: 10px;
+}
+
+.main_container .text .hot_recipe {
+    display: inline-flex;
+    border: 1px;
+    border-radius: 30px;
+    padding: 10px 5px 10px 20px;
+    background-color: white;
+}
+
+.main_container .text .hot_recipe p {
+    font-weight: 700;
+    font-style: normal;
+    padding: 5px 10px 0 15px;
+}
+
+/* Categories */
+.category {
+    margin: 50px;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.category .section1 .btn_viewCat {
+    background-color: #E7FAFE;
+    font-weight: bold;
+    margin-left: 70%;
+    height: 50px;
+    width: 230px;
+    border-radius: 30px;
+}
+
+.category .section2 {
+    margin: 30px 10px;
+}
+
+.category .section2 .sub_sec{
+    margin: 0 30px 0 30px;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    height: 100%;
+
+}
+
+.category .section2 .sub_sec p {
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.category .section2 #sub_sec1 {
+    background-color: rgb(245, 245, 243);
+}
+
+.category .section2 #sub_sec2 {
+    background-color: rgb(243, 250, 239);
+}
+
+.category .section2 #sub_sec3 {
+    background-color: rgb(252, 244, 243);
+}
+
+.category .section2 #sub_sec4 {
+    background-color: rgb(254, 250, 241);
+}
+
+.category .section2 #sub_sec5 {
+    background-color: rgb(250, 249, 248);
+}
+
+.category .section2 #sub_sec6 {
+    background-color: rgb(247, 247, 247);
+}
+
+.tasty_recipe {
+    margin: 100px;
+}
+
+.tasty_recipe h2,
+.tasty_recipe p,
+.insta h2,
+.insta p {
+    text-align: center;
+    padding: 10px;
+}
+
+.tasty_recipe .box {
+    margin-left: 0;
+}
+
+.tasty_recipe .autoplay .tasty_section {
+    max-width: 95%;
+    height: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(219, 237, 241);
+    border-radius: 20px;
+}
+
+.tasty_recipe .tasty_section img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.chef {
+    background-image: url('image/Group\ 880.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin: 50px;
+}
+
+.chef h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.chef h2,
+.chef p {
+    padding: 30px;
+    width: 50%;
+}
+
+.insta {
+    margin: 100px 0;
+    padding: 50px 0;
+    background-color: rgb(219, 237, 241);
+}
+
+.insta .post {
+    display: inline-block;
+    margin: 50px 20px;
+}
+
+.btn_view{
+    background-color: black;
+    color: white;
+    width: 229px;
+    height: 50px;
+    border-radius: 30px;
+}
+.chef .btn_view{
+    margin: 20px;
+}
+.insta .btn_view{
+    margin: 20px 40%;
+}
+
+.insta .view_recipe i {
+    padding-left: 10px;
+}
+
+.deli_recipe,
+.like_recipe {
+    margin: 100px 0px;
+}
+
+.deli_recipe h2,
+.deli_recipe p {
+    display: inline-block;
+    margin: 20px;
+}
+
+.deli_recipe p {
+    width: 40%;
+}
+
+.deli_recipe h2 {
+    width: 50%;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.like_recipe h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.deli_section {
+    display: inline-block;
+    width: 290px;
+    margin: 20px;
+}
+
+.deli_section img {
+    border-radius: 20px;
+}
+
+.deli_recipe .box,
+.like_recipe .box {
+    padding: 10px;
+    margin: 0;
+    background-color: white;
+}
+
+.inbox {
+    background-image: url('image/Mask\ Group.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 60px;
+    height: 442px;
+    border-radius: 30px;
+}
+
+.inbox .inner_box {
+    text-align: center;
+    margin: 0 25%;
+    padding-top: 10%;
+    width: 620px;
+    height: 282px;
+}
+
+.inbox .inner_box p {
+    padding: 20px;
+}
+
+.inbox .inner_box .mail {
+    width: 400px;
+    height: 60px;
+    background-color: white;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+.inbox .inner_box .mail  #inp_mail{
+    border: none;
+    padding: 10px;
+    color: black;
+    border-radius: 30px;
+    width: 100%;
+}
+
+
+.inbox .inner_box .mail .btn_sub{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    width: 40%;
+    height: 100%;
+    border: 1px solid white;
+}
+
+.footerr,
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerr {
+    margin: 50px;
+}
+
+.footerr ul,
+.copyright ul {
+    display: inline-block;
+}
+
+.copyright {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.copyright .copyright_text {
+    margin: auto;
+}
